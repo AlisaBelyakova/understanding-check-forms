@@ -7,6 +7,7 @@ const AddCritter = props => {
       <input name="name" />
       <label htmlFor="image">Image Url</label>
       <input name="image" />
+      <button onClick={props.createCritter}>Submit</button>
     </form>
   )
 }
